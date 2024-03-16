@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    --font-family: "Georgia ", sans-serif
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../img/start-screen-gradient-background.png);
+}
+
+
+
+.container {
+    max-width: 1400px;
+    margin: 0;
+}
+
+
+
+
+
+.container__hero {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+}
+
+
+
+
+
+
+.nav_list {
+    column-gap: 34px;
+    border-bottom: 3px solid transparent;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    text-transform: none;
+    color: azure;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav_item:hover {
+    border-color: var(--color-primary);
+}
+
+.nav_link {
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-light-s);
+    text-decoration: none;
+    text-transform: none;
+}
+
+.logo_title {
+    font-size: 34px;
+    color: burlywood;
+}
+
+.logo_subtitle {
+    color: aliceblue;
+    font-size: 23px;
+}
+
+.content_hero {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.hero_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 460px;
+}
+
+
+
+.hero_img-wrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 23px 71px;
+    border-radius:
+        32px 32px 32px;
+    background-color: chocolate;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+
+}
+
+.paragraph_hero {
+    color: aliceblue;
+    font-size: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.paragraph {
+    font-size: 23px;
+    color: black;
+    font-weight: 200;
+}
+
+.qaz {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.qaz_container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+.qaz_title {
+    font-size: 17px;
+    color: black;
+}
+
+.desc {
+    display: block;
+}
+
+
+
+.qaz_title1 {
+    font-size: 17px;
+    color: black;
+}
+
+.qaz_content {
+    display: flex;
+    text-align: flex-end;
+    justify-content: flex-end;
+
+}
+
+.qaz_desc {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+
+
+
+
+.qaz_about {
+    font-size: 15px;
+    color: black;
+}
+
+.qaz_that {
+    font-size: 15px;
+    color: black;
+
+}
+
+
+.head-wrap {
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.hero_img {
+    height: 560px;
+    width: 600px;
+}
+
+.Donation {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.Donation_container {
+    display: flex;
+
+    flex-direction: column;
+    height: 100%;
+}
+
+.donation_content {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.map_title {
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(95, 89, 89);
+    font-size: 17px;
+
+    display: flex;
+
+}
+
+.map {
+    display: flex;
+    border-radius: 23px 24px 23px 24px;
+    background-color: rgba(228, 158, 108, 0.829);
+    height: 40px;
+    width: 330px;
+    position: relative;
+    column-gap: 28px;
+    justify-content: first baseline;
+    align-items: flex-end;
+}
+
+.map_wrap-img {
+    display: flex;
+    border-radius: 23px 24px 23px 24px;
+    background-color: rgba(228, 158, 108, 0.829);
+    height: 40px;
+    width: 43px;
+    position: relative;
+    column-gap: 28px;
+    justify-content: first baseline;
+    align-items: flex-start;
+}
+
+.map_img {
+
+    align-items: flex-start;
+    height: 27px;
+    width: 30px;
+    background-color: burlywood;
+
+}
+
+.legal_information {
+    font-size: 25px;
+    color: rgba(133, 133, 133, 0.8);
+}
+
+.donation_wrap-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.donation_img {
+    width: 505px;
+    height: 261px;
+}
+
+.content_title {
+
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.heading_title {
+    font-size: 24px;
+    color: rgba(133, 133, 133, 0.8);
+}
+
+.heading {
+    display: block;
+    column-gap: 45px;
+
+}
+
+.head_title1 {
+    font-size: 23px;
+    color: rgb(133, 133, 133 0.8);
+}
